@@ -1,6 +1,6 @@
 {
   "name": "owlbot-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A javascript client for the owlbot dictionary API.",
   "main": "index.js",
   "repository": {
@@ -16,14 +16,14 @@
     "pronunciation",
     "owlbot"
   ],
-  "bugs": "https://github.com/payamnj/owlbot-js/issues",
-  "author": "Payam Najafizadeh",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/payamnj/owlbot-js/issues"
   },
+  "author": "Payam Najafizadeh",
+  "license": "MIT",
   "homepage": "https://github.com/payamnj/owlbot-js#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "yarn": "^1.16.0"
   }
 }
