@@ -1,7 +1,11 @@
+<p align="center">
+    <img alt="OwlBot" src="https://owlbot.info/static/dictionary/img/owlbot.png" width="140">
+</p>
+
 # owlbot-js
 
 OwlBot is a free English dictionary API available on https://owlbot.info. 
-This repository is a simple javascript client to fetch definition of the words from the Owlbot API.
+This repository is a simple javascript client to fetch definitions of the words from the Owlbot API.
 
 ## Quick start
 First install the owlbot-js package.
@@ -13,7 +17,7 @@ npm install owlbot-js
 ```js
 var Owlbot = require('owlbot-js');
   
-var client = Owlbot(YOUR_TOKEN*);
+var client = Owlbot(YOUR_TOKEN);
 
 client.define('owl').then(function(result){
    console.log(result);
