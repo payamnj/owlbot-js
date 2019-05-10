@@ -23,7 +23,6 @@
   "license": "MIT",
   "homepage": "https://github.com/payamnj/owlbot-js#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "yarn": "^1.16.0"
+    "axios": "^0.18.0"
   }
 }
