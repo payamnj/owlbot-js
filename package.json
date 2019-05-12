@@ -1,6 +1,6 @@
 {
   "name": "owlbot-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A javascript client for the owlbot dictionary API.",
   "main": "index.js",
   "repository": {
