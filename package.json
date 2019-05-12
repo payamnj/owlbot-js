@@ -9,13 +9,16 @@
   },
   "keywords": [
     "Dictionary",
-    "English",
-    "API",
-    "definition",
-    "meaning",
-    "pronunciation",
-    "owlbot"
+    "English dictionary",
+    "Dictionary API",
+    "Definition",
+    "Meaning",
+    "Pronunciation",
+    "OwlBot"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "bugs": {
     "url": "https://github.com/payamnj/owlbot-js/issues"
   },
@@ -24,5 +27,10 @@
   "homepage": "https://github.com/payamnj/owlbot-js#readme",
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4"
   }
 }

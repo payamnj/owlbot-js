@@ -33,23 +33,20 @@ Since it's an asynchronous request, the define methos returns a Promiss.
 
 ```js
 {
-  data: { 
-    definitions: [
-      {
-        type: 'noun',
-        definition: 'a nocturnal bird of prey with large eyes, a facial ' +
-          'disc, a hooked beak, and typically a loud hooting ' +
-          'call.',
-        example: 'I love reaching out into that absolute ' +
-          'silence, when you can hear the owl or the ' +
-          'wind.',
-        image_url: 'https://media.owlbot.info/dictionary/images/owl.jpg.400x400_q85_box-403,83,960,640_crop_detail.jpg'
-      }
-    ],
-    word: 'owl',
-    pronunciation: 'oul'
-  },
-  error: null
+  definitions: [
+    {
+      type: 'noun',
+      definition: 'a nocturnal bird of prey with large eyes, a facial ' +
+        'disc, a hooked beak, and typically a loud hooting ' +
+        'call.',
+      example: 'I love reaching out into that absolute ' +
+        'silence, when you can hear the owl or the ' +
+        'wind.',
+      image_url: 'https://media.owlbot.info/dictionary/images/owl.jpg.400x400_q85_box-403,83,960,640_crop_detail.jpg'
+    }
+  ],
+  word: 'owl',
+  pronunciation: 'oul'
 }
 
 ```
