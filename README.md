@@ -3,6 +3,8 @@
 </p>
 
 # owlbot-js
+[![CircleCI](https://circleci.com/gh/payamnj/owlbot-js.svg?style=svg)](https://circleci.com/gh/payamnj/owlbot-js)
+[![Coverage Status](https://coveralls.io/repos/github/payamnj/owlbot-js/badge.svg?branch=master)](https://coveralls.io/github/payamnj/owlbot-js?branch=master)
 
 OwlBot is a free English dictionary API available on https://owlbot.info. 
 This repository is a simple javascript client to fetch definitions of the words from the Owlbot API.

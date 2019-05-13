@@ -13,7 +13,7 @@ function Owlbot(token) {
         data: null,
         define: async function(word) {
             if(!word){
-                throw 'Word is not provided.'
+                throw 'Word is not provided.';
             }
             var self = this;
             await this.client.get('/api/v3/dictionary/'+word).then(function (response) {
@@ -23,7 +23,6 @@ function Owlbot(token) {
             });
             return self.data;
         }
-
     }
 }
 

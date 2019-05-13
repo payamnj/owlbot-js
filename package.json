@@ -17,7 +17,8 @@
     "OwlBot"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "bugs": {
     "url": "https://github.com/payamnj/owlbot-js/issues"
@@ -31,6 +32,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^6.1.4"
+    "coveralls": "^3.0.3",
+    "mocha": "^6.1.4",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^14.1.1"
   }
 }
