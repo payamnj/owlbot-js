@@ -17,7 +17,7 @@
     "OwlBot"
   ],
   "scripts": {
-    "test": "mocha",
+    "test": "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "bugs": {
