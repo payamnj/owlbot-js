@@ -1,7 +1,7 @@
 version: 2
 
 defaults: &defaults
-  working_directory: ~
+  working_directory: ~/owlbot-js
   docker:
     - image: circleci/node:12.2
 
@@ -26,7 +26,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/
+          at: ~/owlbot-js
       - run:
           name: test
           command: npm test
@@ -37,7 +37,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/
+          at: ~/owlbot-js
       - run:
           name: Authenticate with registry
           when: on_success
