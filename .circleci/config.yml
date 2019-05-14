@@ -51,14 +51,14 @@ workflows:
   test-deploy:
     jobs:
       - build
-      - test
-          requires:
-            - build
+      - test:
+        requires:
+          - build
       - deploy:
-          requires:
-            - test
-          filters:
-            tags:
-              only: /^v.*/
-            branches:
-              only: 'master'
+        requires:
+          - test
+        filters:
+          tags:
+            only: /^v.*/
+          branches:
+            only: 'master'
