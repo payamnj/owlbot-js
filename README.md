@@ -32,7 +32,7 @@ Then on the client instance we called the define method to fetch the definitions
 In the background, define method sends an ajax request to the API using the <a href='https://github.com/axios/axios'>axios</a> package.
 Since it's an asynchronous request, the define methos returns a Promiss.
 
-
+##### result:
 ```js
 {
   definitions: [
