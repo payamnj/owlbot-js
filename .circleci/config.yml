@@ -25,6 +25,8 @@ jobs:
   test:
     <<: *defaults
     steps:
+      - attach_workspace:
+            at: ~
       - run:
           name: test
           command: npm test
@@ -34,6 +36,8 @@ jobs:
   deploy:
     <<: *defaults
     steps:
+      - attach_workspace:
+          at: ~
       - run:
           name: Authenticate with registry
           when: on_success
